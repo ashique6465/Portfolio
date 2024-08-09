@@ -25,5 +25,30 @@
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium."
         }
 
+    ],
+    "portfolio":[
+        {
+            "id":"1",
+            "src":"./img/placeholder-image.png",
+            "title":"Ahuse",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium.",
+            "link":"View In Github"
+
+        },
+        {
+            "id":"2",
+            "src":"./img/placeholder-image-1.png",
+            "title":"App Dashboard",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium.",
+             "link":"View In Github"
+        },
+        {
+            "id":"3",
+            "src":"./img/placeholder-image-2.png",
+            "title":"Blog App",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium.",
+             "link":"View In Github"
+        }
+
     ]
 }
