@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+        <img src="./img/about-ash.png" alt="About Me" />
       </div>
       <div
         className="hero--section--content--box 
@@ -15,7 +15,10 @@ export default function AboutMe() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
             quasi, alias, possimus error maxime, odio veniam qui labore dolor
             aut quidem! Ex laboriosam sint doloribus atque similique, maiores
-            nobis? Sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit deserunt reiciendis rerum consequatur beatae aut sit debitis, vel aliquam, soluta reprehenderit incidunt ad corrupti repellat voluptatum. Soluta, fugiat facilis?
+            nobis? Sequi?Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Recusandae impedit deserunt reiciendis rerum consequatur
+            beatae aut sit debitis, vel aliquam, soluta reprehenderit incidunt
+            ad corrupti repellat voluptatum. Soluta, fugiat facilis?
           </p>
           <p className="hero--section-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
