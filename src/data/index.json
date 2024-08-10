@@ -4,25 +4,27 @@
             "id":"1",
             "src":"./img/product-chain-1.png",
             "title":"Front-End",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium."
-        },
+            "description":"As a MERN stack developer, I build dynamic and responsive UIs using React, HTML, CSS, and JavaScript. I focus on creating seamless and visually appealing web applications. My goal is to enhance user experiences through modern design and efficient coding practices."
+    },
         {
             "id":"2",
             "src":"./img/tag-1.png",
             "title":"Back-End",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium."
+            "description":"As a MERN stack developer, I design and manage server-side logic with Node.js and Express. I handle data storage and retrieval using MongoDB, ensuring efficient and scalable backend solutions. My focus is on building robust APIs and maintaining smooth integration with front-end components."
         },
         {
             "id":"3",
             "src":"./img/feather-pen-2.png",
             "title":"UI & UX Design",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium."
+            "description":"I design intuitive and user-friendly interfaces, focusing on both aesthetic appeal and functionality. My approach involves creating wireframes and prototypes to ensure a seamless user experience and engaging design."
         },
         {
             "id":"4",
             "src":"./img/feather-pen-1.png",
             "title":"Webflow Development",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium."
+            "description":"I leverage Webflow to create responsive and visually striking websites with a focus on user experience and performance. My expertise includes designing layouts, interactions, and animations while ensuring smooth cross-browser compatibility."
+
+
         }
 
     ],

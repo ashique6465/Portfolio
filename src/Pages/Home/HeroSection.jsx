@@ -10,12 +10,16 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Passionate about crafting dynamic web applications with the MERN
+            stack. Continuously exploring new technologies to deliver impactful
+            digital experiences.
             <br />
-            Lorem Soluta facere incidunt dolorem?
+            {/* Lorem Soluta facere incidunt dolorem? */}
           </p>
         </div>
-        <button className="btn btn-primary">Get in Touch</button>
+        <a href="/Cv/Ashique%20New%20resume%201.pdf" download="Ashique_New_Resume.pdf" className="btn btn-primary">
+          Download My CV
+        </a>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero-ash.png" alt="Hero Section" />

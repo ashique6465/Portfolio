@@ -591,6 +591,19 @@ h3 {
     font-weight: 400;
     line-height: 28px;
   }
+  .footer--items ul li a,
+.footer--social--icon ul li a {
+  color: inherit; /* Ensures the default color is inherited */
+  text-decoration: none; /* Removes underline from links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.footer--items ul li a:hover,
+.footer--social--icon ul li a:hover {
+  color: #76e6ff; /* Change this color to whatever you like */
+  cursor: pointer; /* Changes the cursor to a pointer */
+}
+
   
   /* Responsive Screens */
   @media only screen and (max-width: 1800px) {
@@ -669,6 +682,7 @@ h3 {
       padding-top: 70px;
       padding-bottom: 70px;
     }
+   
     .about--section {
       gap: 20px;
       padding-top: 0;

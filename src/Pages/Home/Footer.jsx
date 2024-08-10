@@ -58,6 +58,7 @@ function Footer() {
                 duration={500}
                 to="Contact"
                 className="text-md"
+                // style={{ color: "black" }}
               >
                 Contact
               </Link>
@@ -102,7 +103,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/ashique_023/?next=%2F"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -125,7 +126,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://x.com/home"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -172,7 +173,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made with 💖 by Ashique</p>
         <div className="footer--social--icon">
           <ul>
             <li>
