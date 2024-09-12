@@ -1,16 +1,17 @@
 import data from "../../data/index.json";
+import Explore from "./Explore";
 
 export default function MyPortfolio() {
   const handleGitHubRedirect = () => {
-    window.location.href = 'https://github.com/ashique6465'; // Replace with your GitHub URL
+    window.location.href = "https://github.com/ashique6465";
   };
 
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          {/* <p className="sub--title">Recent Projects</p> */}
+          <h2 className="section--heading">My Projects</h2>
         </div>
         <div>
           <button className="btn btn-github" onClick={handleGitHubRedirect}>
@@ -34,7 +35,11 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div
+            key={index}
+            className="portfolio--section--card"
+            style={{ borderRadius: "24px" }}
+          >
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>
@@ -43,7 +48,12 @@ export default function MyPortfolio() {
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
-              <p className="text-sm portfolio--link">
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm portfolio--link"
+              >
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,11 +70,12 @@ export default function MyPortfolio() {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </p>
+              </a>
             </div>
           </div>
         ))}
       </div>
+      
     </section>
   );
 }

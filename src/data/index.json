@@ -10,13 +10,13 @@
             "id":"2",
             "src":"./img/tag-1.png",
             "title":"Back-End",
-            "description":"As a MERN stack developer, I design and manage server-side logic with Node.js and Express. I handle data storage and retrieval using MongoDB, ensuring efficient and scalable backend solutions. My focus is on building robust APIs and maintaining smooth integration with front-end components."
+            "description":"I design and manage server-side logic with Node.js and Express. I handle data storage using MongoDB, ensuring efficient and scalable backend solutions. My focus is on building robust APIs and maintaining smooth integration with front-end components."
         },
         {
             "id":"3",
             "src":"./img/feather-pen-2.png",
-            "title":"UI & UX Design",
-            "description":"I design intuitive and user-friendly interfaces, focusing on both aesthetic appeal and functionality. My approach involves creating wireframes and prototypes to ensure a seamless user experience and engaging design."
+            "title":"Full Stack Developer",
+            "description":"I am a full stack developer skilled in building end-to-end web applications using modern technologies like the MERN stack and Appwrite. With experience in front-end and back-end development, I create dynamic, scalable, and user-friendly solutions."
         },
         {
             "id":"4",
@@ -31,25 +31,27 @@
     "portfolio":[
         {
             "id":"1",
-            "src":"./img/placeholder-image.png",
-            "title":"Ahuse",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium.",
-            "link":"View In Github"
+            "src":"./img/SnapGram.png",
+            "title":"SnapGram",
+            "description":"Developed a full-stack social media app using React.js, Node.js, Tailwind CSS, and Appwrite. The app features user authentication, post creation and editing, post interaction (like, save, and explore), as well as user profile management. The clean UI and seamless user experience make it easy to connect and share content.",
+            "link":"Explore",
+            "url": "https://snapgram-hes1.vercel.app/"
 
         },
         {
             "id":"2",
-            "src":"./img/placeholder-image-1.png",
-            "title":"App Dashboard",
-            "description":"Ashique.",
-             "link":"View In Github"
+            "src":"./img/chatApp.png",
+            "title":"ChitChat",
+            "description":"Built a real-time chat application using the MERN stack and Socket.io, featuring responsive user authentication and seamless messaging capabilities. The app allows users to engage in real-time conversations with a smooth and interactive interface, ensuring fast and reliable communication.",
+             "link":"Explore",
+             "url":"https://one-chat-07nb.onrender.com/"
         },
         {
             "id":"3",
             "src":"./img/placeholder-image-2.png",
             "title":"Blog App",
-            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor luctus ex, et blandit urna tempor eget. Suspendisse vitae mi eget justo vehicula pretium.",
-             "link":"View In Github"
+            "description":"Created a blog application using the MERN stack, featuring user authentication and registration. Users can post, edit, and explore content, making it easy to share and discover blogs. The app also includes a clean, user-friendly interface to enhance the overall reading and writing experience.",
+             "link":"Explore"
         }
 
     ],

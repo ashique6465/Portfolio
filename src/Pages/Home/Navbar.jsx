@@ -26,11 +26,10 @@ function Navbar() {
       closeMenu;
     }
   }, []);
+
   return (
     <nav className={`navbar ${navAtive ? "acitive" : ""}`}>
-      <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
-      </div>
+      <div></div>
       <a
         className={`nav__hamburger ${navAtive ? "active" : ""}`}
         onClick={toggleNav}
@@ -66,7 +65,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              Projects
             </Link>
           </li>
           <li>
@@ -91,26 +90,35 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonials"
+              to="mySkills"
               className="navbar--content"
             >
-              Testimonials
+              My Expertise
             </Link>
+          </li>
+          <li>
+            {/* <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="mySkills"
+              className="navbar--content"
+            >
+              My Expertise
+            </Link> */}
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
+      <a
+        href="mailto:mdashiqueali71@gmail.com?subject=Inquiry&body=Hello,"
         className="btn btn-outline-primary"
+        onClick={closeMenu}
       >
-        Contact Me
-      </Link>
+        Get In Touch
+      </a>
     </nav>
   );
 }

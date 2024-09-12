@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: "Roboto", sans-serif;
-    -webkit-font-smoothing: "Roboto", sans-serif;
-    -moz-osx-font-smoothing: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing:grayscale;
     font-style: normal;
 }
 
@@ -45,7 +45,7 @@ p {
     -o-border-radius: 5px;
     transition: background-color 0.5s;
     -webkit-transition: background-color 0.5s;
-    -moz-border-tansition: background-color 0.5s;
+    -moz-tansition: background-color 0.5s;
     -ms-border-transition: background-color 0.5s;
     -o-border-transition: background-color 0.5s;
 }
@@ -178,6 +178,7 @@ h3 {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 
 .navbar--items > ul {
@@ -332,7 +333,7 @@ h3 {
 }
 .skills--section--description{
     color: var(--black);
-    font-size: 21..3px;
+    font-size: 21.3px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
@@ -348,8 +349,9 @@ h3 {
     grid-template-columns: repeat(2,1fr);
 }
 .about--section--img >img{
-    width: 100%;
-    height: 100%;
+  border-radius: 24px;
+    width: 72%;
+    height: 72%;
 }
 /* About me ends here */
 
@@ -381,12 +383,15 @@ h3 {
     width: 100%;
     
 }
-.portfolio--section--img{
+/* .portfolio--section--img{
     border-radius: 8px ;
     width: 100%;
-}
+} */
 .portfolio--section--img > img{
-   width: 100%;
+  width: 100%;
+  height: auto; 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px
 }
 .portfolio--section--card{
     display: flex;
@@ -397,9 +402,11 @@ h3 {
     background: #fff;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: 300px;
 }
+
 .portfolio--section--card--content{
     display: flex;
     padding: 32px;
@@ -422,10 +429,29 @@ h3 {
 .portfolio--section--card:hover path{
     stroke: #006b6a;
 }
+.highlight {
+  font-weight: bold;/* You can use any color you want */
+}
+/* =============MY TECH STACK */
+.MyTech{
+  width: 75%;
+  text-align: center;
+}
+.MyTech .tech-image img{
+  margin-top: 16px;
+  height: 64px;
+  width: 64px;
+  margin-right: 20px;
+  position: relative;
+  z-index: 1;
+}
+.tech-image{
+  overflow: hidden;
+}
 
 /* Portfolio Ends */
 /* Testimonial */
-.testimonial--section{
+/* .testimonial--section{
     display: flex;
     padding: 112px 84.3px;
     flex-direction: column;
@@ -465,7 +491,7 @@ h3 {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
-}
+} */
 /* Testimonial ends */
 /* Contact */
 .contact--section {
@@ -477,6 +503,10 @@ h3 {
     text-align: center;
     gap: 64px;
   }
+
+  /* .contact--section .text-lg{
+    color: #7c2727;
+  } */
   .contact--form--container {
     display: grid;
     grid-template-columns: auto;
@@ -688,6 +718,11 @@ h3 {
       padding-top: 0;
       padding-bottom: 0;
     }
+    .about--section img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .testimonial--section--card {
       padding: 25px;
     }
@@ -715,6 +750,12 @@ h3 {
     }
     .divider {
       margin: 20px;
+    }
+  }
+
+  @media (max-width: 660px) {
+    .MyTech h1 {
+      font-size: 2rem;
     }
   }
   

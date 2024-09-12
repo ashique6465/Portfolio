@@ -5,9 +5,6 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
-        </div>
         <div className="footer--items">
           <ul>
             <li>
@@ -33,7 +30,7 @@ function Footer() {
                 to="MyPortfolio"
                 className="text-md"
               >
-                Portfolio
+                Projects
               </Link>
             </li>
             <li>
@@ -64,7 +61,7 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link
+              {/* <Link
                 activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
@@ -74,7 +71,7 @@ function Footer() {
                 className="text-md"
               >
                 Testimonials
-              </Link>
+              </Link> */}
             </li>
           </ul>
         </div>
@@ -145,6 +142,7 @@ function Footer() {
                 </svg>
               </a>
             </li>
+            {/* LINKED IN */}
             <li>
               <a
                 href="https://www.linkedin.com/"
@@ -168,6 +166,26 @@ function Footer() {
                 </svg>
               </a>
             </li>
+            {/* GIT HUB */}
+            <li>
+  <a
+    href="https://github.com/ashique6465"
+    className="navbar--content"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="32"
+      height="32"
+      viewBox="0 0 24 24"
+      fill="black"
+    >
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.263.82-.583 0-.287-.01-1.046-.015-2.054-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.082-.73.082-.73 1.205.085 1.838 1.237 1.838 1.237 1.07 1.833 2.809 1.304 3.495.997.108-.776.42-1.305.762-1.605-2.665-.305-5.466-1.332-5.466-5.931 0-1.31.467-2.382 1.235-3.221-.125-.304-.535-1.528.115-3.184 0 0 1.007-.322 3.3 1.23a11.525 11.525 0 013.006-.404c1.02.005 2.047.138 3.006.404 2.29-1.552 3.295-1.23 3.295-1.23.653 1.656.243 2.88.118 3.184.77.84 1.233 1.911 1.233 3.221 0 4.61-2.807 5.622-5.479 5.921.43.371.814 1.1.814 2.216 0 1.6-.014 2.888-.014 3.282 0 .322.215.699.825.581C20.565 21.796 24 17.303 24 12c0-6.627-5.373-12-12-12z" />
+    </svg>
+  </a>
+</li>
+
           </ul>
         </div>
       </div>
