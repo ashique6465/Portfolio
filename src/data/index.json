@@ -48,10 +48,12 @@
         },
         {
             "id":"3",
-            "src":"./img/placeholder-image-2.png",
-            "title":"Blog App",
-            "description":"Created a blog application using the MERN stack, featuring user authentication and registration. Users can post, edit, and explore content, making it easy to share and discover blogs. The app also includes a clean, user-friendly interface to enhance the overall reading and writing experience.",
-             "link":"Explore"
+            "src":"./img/pr4.png",
+            "title":"YouTube Channel Sponsorship Website",
+            "description":"I developed a personal website for a client with a YouTube channel, enabling seamless contact for sponsorship and promotion inquiries. Built using React and EmailJS, the website includes a 'Get Sponsor' page and dynamically fetches YouTube videos, providing visitors with an easy way to explore the client's content and access their YouTube channel.",
+             "link":"Explore",
+             "url":"https://islamicvibe-pi.vercel.app/"
+
         }
 
     ],

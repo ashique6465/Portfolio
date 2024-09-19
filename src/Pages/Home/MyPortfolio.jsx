@@ -75,7 +75,7 @@ export default function MyPortfolio() {
           </div>
         ))}
       </div>
-      
+      {/* <Explore /> */}
     </section>
   );
 }
