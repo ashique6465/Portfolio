@@ -5,7 +5,7 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Ashqiue</p>
           <h1 className="hero--section--title">
-            <span className="hero--section--title--color" >Full Stack</span>{" "}
+            <span className="hero--section--title--color">Full Stack</span>{" "}
             <br />
             Developer
           </h1>
@@ -17,7 +17,11 @@ export default function HeroSection() {
             {/* Lorem Soluta facere incidunt dolorem? */}
           </p>
         </div>
-        <a href="/Cv/Ashique%20New%20resume%201.pdf" download="Ashique_New_Resume.pdf" className="btn btn-primary">
+        <a
+          href="/Cv/Ashique%20New%20resume%201.pdf"
+          download="Ashique New Resume 1.pdf"
+          className="btn btn-primary"
+        >
           Download My CV
         </a>
       </div>

@@ -54,6 +54,15 @@
              "link":"Explore",
              "url":"https://islamicvibe-pi.vercel.app/"
 
+        },
+        {
+            "id":"3",
+            "src":"./img/das.png",
+            "title":"Admin Dashboard",
+            "description":"A fully responsive admin dashboard built using React, Refine, and Ant Design (AntD). It features profile creation and editing, company management, scheduled tasks, and secure authentication (login, logout). Additionally, the dashboard includes a Kanban board for task tracking, upcoming events, and a feed of the latest activities, providing a comprehensive and user-friendly interface for enterprise management.",
+             "link":"Explore",
+             "url":"https://dashboard-eight-theta-61.vercel.app/"
+
         }
 
     ],

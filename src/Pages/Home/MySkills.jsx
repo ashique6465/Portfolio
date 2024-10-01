@@ -44,6 +44,7 @@ export default function MySkills() {
             <img src="/img/icons/js.png" alt="js" />
             <img src="/img/icons/git.png" alt="git" />
             <img src="/img/icons/node.png" alt="nodejs" />
+            <img src="/img/icons/email.png" alt="EmailJs" />
           </Marquee>
         </div>
       </div>
